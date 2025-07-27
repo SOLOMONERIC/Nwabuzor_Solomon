@@ -1,5 +1,4 @@
-import heroImg from "../../assets/images/hero.jpg";
-
+import heroImg from "@/assets/images/hero.jpg";
 
 export default function About() {
   return (
@@ -31,8 +30,7 @@ export default function About() {
                   With a strong foundation in JavaScript and a keen interest in
                   UI/UX design, I strive to build applications that not only
                   function seamlessly but also provide an exceptional user
-                  experience.
-                  {" "}
+                  experience.{" "}
                 </span>
                 , I&apos;m dedicated to simplifying development workflows.
               </p>
@@ -44,17 +42,15 @@ export default function About() {
               <div className="pt-6">
                 <blockquote className="border-l-4 border-gray-300 pl-4">
                   <p className="text-white">
-                    I&apos;m a lifelong learner and innovator, driven by a desire to
-                    contribute to the developer community with new ideas and
-                    tools that deliver real value.
-                    
+                    I&apos;m a lifelong learner and innovator, driven by a
+                    desire to contribute to the developer community with new
+                    ideas and tools that deliver real value.
                   </p>
 
                   <div className="mt-6 space-y-3">
                     <cite className="block font-medium text-white">
                       Solomon Eric
                     </cite>
-                    
                   </div>
                 </blockquote>
               </div>
