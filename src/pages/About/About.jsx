@@ -1,22 +1,40 @@
-import heroImg from "@/assets/images/hero.jpg";
+import { useState, useEffect } from "react";
 
 export default function About() {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  // Fallback image in case the original is missing
+  const heroImg =
+    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80";
+
+  useEffect(() => {
+    // Check if the original image exists
+    const img = new Image();
+    img.onload = () => setImageLoaded(true);
+    img.onerror = () => setImageLoaded(false);
+    // Try to load the original image - you'll need to adjust this path
+    img.src = "/src/assets/images/hero.jpg";
+  }, []);
+
   return (
     <>
-      <section id="about" className="py-16 md:py-32  text-white bg-[#04081A]">
+      <section id="about" className="py-16 md:py-32 text-white bg-[#04081A]">
         <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
           <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl text-green-400">
-            Developer, Designer, Creator .
+            Developer, Designer, Creator.
           </h2>
           <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
             <div className="relative mb-6 sm:mb-0">
               <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl p-px from-zinc-300 to-transparent">
                 <img
-                  src={heroImg}
-                  className="rounded-[15px] shadow block"
-                  alt="payments illustration"
-                  width={1207}
-                  height={929}
+                  src={imageLoaded ? "/src/assets/images/hero.jpg" : heroImg}
+                  className="rounded-[15px] shadow block w-full h-auto"
+                  alt="Solomon Eric - Developer, Designer, Creator"
+                  width={600}
+                  height={450}
+                  onError={(e) => {
+                    e.target.src = heroImg;
+                  }}
                 />
               </div>
             </div>
