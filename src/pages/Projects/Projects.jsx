@@ -22,7 +22,7 @@ const projects = [
     link: "https://i.postimg.cc/ZnGfKJ7h/solomon.png",
     color: "#8f89ff",
     githubLink: "https://github.com/SOLOMONERIC/Nwabuzor_Solomon",
-    liveLink: "",
+    liveLink: "https://solomon-eric.vercel.app/",
   },
 
   {
@@ -42,7 +42,7 @@ const projects = [
     link: "https://i.postimg.cc/PJdTRM4Z/Screenshot-2025-07-27-010236.png",
     color: "#ed649e",
     githubLink: "https://github.com/SOLOMONERIC/Don_leric",
-    liveLink: "don-leric.vercel.app",
+    liveLink: "https://don-leric.vercel.app",
   },
 ];
 
