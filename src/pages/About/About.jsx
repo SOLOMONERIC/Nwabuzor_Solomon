@@ -5,7 +5,7 @@ export default function About() {
 
   // Fallback image in case the original is missing
   const heroImg =
-    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80";
+    "https://i.postimg.cc/3RF3PYQ7/leric-2627735134365837142-image.jpg";
 
   useEffect(() => {
     // Check if the original image exists
