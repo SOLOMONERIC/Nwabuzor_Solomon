@@ -55,11 +55,11 @@ const ExperienceSection = () => {
   const experiences = [
     {
       icon: Network,
-      title: "Professional Forklift Operator",
-      company: "Climax Lubricants",
-      period: "2023 - 2024",
+      title: "Python Programmer",
+      company: "Leric.Inc.",
+      period: "2024 - Present",
       description:
-        "Operated forklifts to transport materials safely and efficiently, ensuring smooth warehouse operations.",
+        "Contributed to developing Python libraries and enhancing framework functionalities.",
     },
     {
       icon: Layers,

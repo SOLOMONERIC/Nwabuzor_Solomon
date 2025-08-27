@@ -54,7 +54,7 @@ export default function About() {
               </p>
               <p className="text-white">
                 My focus is on making web development faster, easier, and
-                accessible to all developers.😎
+                accessible to all developers.
               </p>
 
               <div className="pt-6">

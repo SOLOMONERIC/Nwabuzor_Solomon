@@ -19,20 +19,20 @@ const EducationSection = () => {
       school: "New Heights Secondary School",
       mascot: "📘",
       year: "2010-2015",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
-      description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
-    },
-    {
-      degree: "University Education",
-      school: "Caleb University",
-      mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Government", "Economics", "History"],
+      achievements: ["GPA: 4.89", "Department: Arts"],
+      skills: ["Mathematics", "English", "Literature", "Biology"],
       description:
         "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+    },
+    {
+      degree: "University Education (BSc)",
+      school: "Caleb University",
+      mascot: "📗",
+      year: "2020-2023",
+      achievements: ["GPA: 4.25", "Course: Mass Communications"],
+      skills: ["Literature", "Government", "Economics", "History"],
+      description:
+        "Acquired a solid foundation in humanities and social sciences, honing my critical thinking and problem-solving skills.",
     },
 
     
