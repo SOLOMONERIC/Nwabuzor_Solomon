@@ -14,7 +14,7 @@ export default function About() {
     img.onerror = () => setImageLoaded(false);
     // Try to load the original image - you'll need to adjust this path
     img.src = "/src/assets/images/hero.jpg";
-  }, []);
+  }, []);``
 
   return (
     <>

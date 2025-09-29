@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
-import Prism from "prismjs";
-import "prismjs/components/prism-javascript";
-import "@/assets/css/tomorrow.css";
-import Meteors from "@/components/ui/meteors";
+import Prism from "prismjs";1;
 import PortfolioPage from "@/pages/About/About";
 import SparklesText from "@/components/ui/sparkles-text";
+import Meteors from "@/components/ui/meteors";
 import { FlipWords } from "@/components/ui/flip-words";
 
 // Grid Background - Replacing the HexagonBackground
