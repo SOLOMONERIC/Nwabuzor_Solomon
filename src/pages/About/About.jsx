@@ -14,7 +14,8 @@ export default function About() {
     img.onerror = () => setImageLoaded(false);
     // Try to load the original image - you'll need to adjust this path
     img.src = "/src/assets/images/hero.jpg";
-  }, []);``
+  }, []);
+  ``;
 
   return (
     <>
@@ -67,7 +68,7 @@ export default function About() {
 
                   <div className="mt-6 space-y-3">
                     <cite className="block font-medium text-white">
-                      Solomon Eric
+                      Nwabuzor Solomon Eric
                     </cite>
                   </div>
                 </blockquote>
